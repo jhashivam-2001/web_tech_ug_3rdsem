@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 3</title>
+    <style media="screen">
+      h1{
+        color: rgb(153, 50, 194);
+      }
+      .ad{
+        color: blue;
+      }
+      .sd{
+        background-color: red;
+      }
+      .ad.sd{
+        font-style:italic;
+      }
+      .Big{
+        font-size: 20px;
+      }
+      .Big p{
+        background-color: green;
+      }
+      .descendant li{
+        background-color: rgb(24, 236, 226);
+      }
+      .child>li{
+        background-color: rgb(106, 20, 187);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Heading 1</h1>
+    <p class="ad">ad class demonstration</p>
+    <p class="sd">sd class demonstration</p>
+    <p class="ad sd">ad as well as sd class</p>
+    <article>
+      <ol class="descendant">
+        <li>This is an example of descendant selector case</li>
+      </ol>
+      <ol class="child">
+        <li>This is an example of child selector case</li>
+      </ol>
+    </article>
+    <div class="Big">
+        <h2>Using "Big" class in Heading 2</h2>
+        <p>Using "Big" class in paragraph</p>
+    </div>
+  </body>
+</html>

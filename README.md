@@ -11,3 +11,8 @@ Assignment 4 Q1 - https://jhashivam-2001.github.io/web_tech_ug_3rdsem/assignment
 
 Assignment 4 Q2 - https://jhashivam-2001.github.io/web_tech_ug_3rdsem/assignment4q2.html
 
+JS Assignment 1 - https://jhashivam-2001.github.io/web_tech_ug_3rdsem/JS_Assignment_1
+
+JS Assignment 2 - https://jhashivam-2001.github.io/web_tech_ug_3rdsem/JS_ASSIGNMENT_2
+
+JS Assignment 3 - https://jhashivam-2001.github.io/web_tech_ug_3rdsem/JS_Assignment_3

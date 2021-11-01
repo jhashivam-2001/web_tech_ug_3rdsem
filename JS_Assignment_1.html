@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Assignment 1</title>
+    <script src="example.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <h1 style="text-decoration: underline;">JS_ASSIGNMENT_1</h1>
+    </center>
+    <ul>
+        <li>Name : Shivam Jha</li>
+        <li>Roll : 2006006</li>
+        <li>Batch : CSE1A</li>
+        <li>Date : 31/10/2021</li>
+    </ul>
+    <hr>
+    <h2>Procedure of connecting JS file with HTML file : </h2>
+    <p>We can include JavaScript in our HTML in three ways namely :</p>
+    <ol>
+        <li>Embedding Code</li>
+        <li>Inline Code</li>
+        <li>External File</li>
+    </ol>
+    <hr>
+    <h1>Embedding Code</h1>
+    <p>To add the JavaScript code into the HTML pages, we can use the script tag of the HTML that wrap around
+        JavaScript
+        code inside the HTML program.</p>
+    <p> We can also define JS code in body tag or head tag.</p>
+    <script>
+        document.write("This is an example of using Embedding Code to write text on document.")
+    </script>
+    <hr>
+    <h1>Inline Code</h1>
+    <p>Generally, this method is used when we have to call a function in the HTML event attributes.</p>
+    <p> There are many cases (or events) in which we have to add JavaScript code directly , eg. OnHover event,
+        OnClick,etc.
+    </p>
+    <p><a href="#" onclick="alert('This is an example of Inline Code')">Click Here</a></p>
+    <hr>
+    <h1>External File</h1>
+    <p>We can create external JavaScript file and embed it in many html page.</p>
+    <p>It provides code re usability because single JavaScript file can be used in several html pages.</p>
+    <p>An external JavaScript file must be saved by .js extension. It is recommended to embed all JavaScript files
+        into
+        a single file. It increases the speed of the webpage.</p>
+    <a href="#" onclick="JS_example()">Click Here</a>
+    <hr>
+</body>
+
+</html>

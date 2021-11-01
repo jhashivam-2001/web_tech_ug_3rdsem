@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Assignment 2</title>
+    <script src="example2.js"></script>
+</head>
+
+<body bgcolor="#fae4fc">
+    <center>
+        <h1 style="text-decoration: underline;">JS_ASSIGNMENT_2</h1>
+    </center>
+    <ul>
+        <li>Name : Shivam Jha</li>
+        <li>Roll : 2006006</li>
+        <li>Batch : CSE1A</li>
+        <li>Date : 31/10/2021</li>
+    </ul>
+    <hr>
+    <h2>Scope refers to the availability of variables and functions in certain parts of the code.</h2>
+    <p>In JavaScript, a variable has two types of scope:</p>
+    <ol>
+        <li>
+            <p>Global Scope</p>
+        </li>
+        <li>
+            <p>Local Scope</p>
+        </li>
+    </ol>
+    <hr>
+    <h1 style="text-decoration: underline;">GLOBAL SCOPE</h1>
+
+    <ul>
+        <li>
+            <p>Global scope is the entire Javascript execution environment.</p>
+        </li>
+        <li>
+            <p>Any variable assigned without an explicit scope (using the var, let, or const keywords) automatically
+                becomes a
+                global variable. The same is true for functions as well.</p>
+        </li>
+        <li>
+            <p>A variable declared at the top of a program or outside of a function is considered a global scope
+                variable.</p>
+        </li>
+        <li>
+            <p id="demo1">For example , <a href="#" onclick="link1()">CLICK HERE</a>. </p>
+        </li>
+        <li>
+            <p>The value of a global variable can be changed inside a function. </p>
+        </li>
+        <li>
+            <p id="demo2">For example , <a href="#" onclick="link2()">CLICK HERE</a>. </p>
+        </li>
+        <li>
+            <p>In JavaScript, a variable can also be used without declaring it. If a variable is used without declaring
+                it, that
+                variable automatically becomes a global variable.</p>
+        </li>
+        <li>
+            <p id="demo3">For example , <a href="#" onclick="link3()">CLICK HERE</a>. </p>
+        </li>
+        <li>
+            <p>We can prevent variables assigned without an explicit scope from becoming global variables by using
+                Javascript’s
+                “strict” mode.</p>
+        </li>
+    </ul>
+
+    <hr>
+    <h1 style="text-decoration: underline;">LOCAL SCOPE</h1>
+    <ul>
+        <li>
+            <p>A variable can also have a local scope, i.e it can only be accessed within a function.</p>
+        </li>
+        <li>
+            <p>Function parameters are always local to that function.</p>
+        </li>
+        <li>
+            <p>A variable can also have a local scope, i.e it can only be accessed within a function.They can be used
+                only by statements that are inside that function or block of code.</p>
+        </li>
+        <li>
+            <p>Local variables are not known to functions outside their own.</p>
+        </li>
+        <li>
+            <p id="demo4">For example , <a href="#" onclick="local()">CLICK HERE</a>. </p>
+        </li>
+    </ul>
+    <hr>
+</body>
+
+</html>

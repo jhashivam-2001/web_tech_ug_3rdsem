@@ -16,3 +16,5 @@ JS Assignment 1 - https://jhashivam-2001.github.io/web_tech_ug_3rdsem/JS_Assignm
 JS Assignment 2 - https://jhashivam-2001.github.io/web_tech_ug_3rdsem/JS_ASSIGNMENT_2
 
 JS Assignment 3 - https://jhashivam-2001.github.io/web_tech_ug_3rdsem/JS_Assignment_3
+
+JS Assignment (Object Creation) - https://jhashivam-2001.github.io/web_tech_ug_3rdsem/js_assignment
